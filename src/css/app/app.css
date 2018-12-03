@@ -1,0 +1,11 @@
+@font-face {
+    font-family: ehsmb;
+    src: url(../../fonts/EHSMB.woff);
+}
+
+
+body {
+    background: #000;
+    font-family: ehsmb;
+    color: #FFF;
+}
