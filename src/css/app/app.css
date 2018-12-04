@@ -30,6 +30,10 @@ a:hover,
 a:visited,
 a:focus {
     color: #FFF;
+    text-decoration: underline;
+}
+
+a.pa-no-decoration {
     text-decoration: none;
 }
 
