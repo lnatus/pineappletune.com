@@ -3,9 +3,115 @@
     src: url(../../fonts/EHSMB.woff);
 }
 
+@keyframes pa-color-pulse {
+    0% {
+        fill: #08D0FF;
+    }
+    25% {
+        fill: #0FE42F;
+    }
+    50% {
+        fill: #CD2424;
+    }
+   
+    100% {
+        fill: #08D0FF;;
+    }
+}
 
 body {
     background: #000;
     font-family: ehsmb;
     color: #FFF;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+header {
+    padding: 45px 0;
+}
+
+header ul {
+    float: right;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.fas, 
+.fab {
+    font-size: 3em;
+    margin-right: 1em;
+    margin-top: 30px;
+}
+
+.pa-space-s {
+    margin-top: 15px;
+}
+
+.pa-space-l {
+    margin-top: 90px;
+}
+
+
+.pa-background {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    left: -500px;
+}
+
+svg path,
+svg polygon,
+svg filter feGaussianBlur {
+    max-width: 100%;
+    height: auto;
+    animation: 30s pa-color-pulse infinite;
+}
+
+input[type="text"] {
+    margin: 45px 0 15px 0;
+    display: block;
+    border-radius: 25px;
+    border: none;
+    color: #000;
+    height: 3em;
+    padding: 20px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #FFF;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px 0 45px 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:disabled {
+    background: #DDD;
+    color: #AAA;
+    cursor: not-allowed;
 }
