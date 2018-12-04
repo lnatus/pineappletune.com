@@ -115,7 +115,6 @@ input[type="submit"]:disabled {
     margin-top: 90px;
 }
 
-
 .pa-background {
     position: absolute;
     z-index: 0;
@@ -123,4 +122,21 @@ input[type="submit"]:disabled {
     height: auto;
     margin: 0 auto;
     left: -500px;
+}
+
+@media (max-width: 768px) {
+    nav {
+      display: none;
+    }
+    
+    .fas, 
+    .fab {
+        font-size: 2em;
+        margin-right: 1em;
+        margin-bottom: 45px;
+    }  
+
+    .pa-background {
+        left: -250px;
+    }
 }
