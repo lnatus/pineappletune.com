@@ -65,8 +65,7 @@ footer {
 }
 
 svg path,
-svg polygon,
-svg filter feGaussianBlur {
+svg polygon {
     max-width: 100%;
     height: auto;
     animation: 30s pa-color-pulse infinite;
