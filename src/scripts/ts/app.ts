@@ -8,7 +8,7 @@ namespace PA {
       const $email = $('#email')
       const $send = $('#btnSubscribe')
 
-      $('#pa-subscribe-form .form-control').keyup(() =>{
+      $email.keyup(() =>{
         if($email.val() && this.emailRegex.test($email.val())){
           $send.removeAttr('disabled')
         } else {
