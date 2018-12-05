@@ -9,7 +9,7 @@ var PA;
             var _this = this;
             var $email = $('#email');
             var $send = $('#btnSubscribe');
-            $('#pa-subscribe-form .form-control').keyup(function () {
+            $email.keyup(function () {
                 if ($email.val() && _this.emailRegex.test($email.val())) {
                     $send.removeAttr('disabled');
                 }
