@@ -1,0 +1,6 @@
+Files
+	sitemap.xml
+	favicon.ico
+	images/pinapple-og.png
+    music/SOUNDS_LIKE_ME.mp3
+	
