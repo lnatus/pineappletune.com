@@ -3,22 +3,6 @@
     src: url(../../fonts/EHSMB.woff);
 }
 
-@keyframes pa-color-pulse {
-    0% {
-        fill: #08D0FF;
-    }
-    25% {
-        fill: #0FE42F;
-    }
-    50% {
-        fill: #CD2424;
-    }
-   
-    100% {
-        fill: #08D0FF;;
-    }
-}
-
 body {
     background: #000;
     font-family: ehsmb;
@@ -62,13 +46,6 @@ iframe {
 footer {
     margin-top: 90px;
     text-align: center;
-}
-
-svg path,
-svg polygon {
-    max-width: 100%;
-    height: auto;
-    animation: 30s pa-color-pulse infinite;
 }
 
 input[type="text"] {
