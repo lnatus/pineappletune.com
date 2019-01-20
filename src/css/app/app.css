@@ -87,6 +87,10 @@ input[type="submit"]:disabled {
     margin-top: 15px;
 }
 
+.pa-space-m {
+    margin-top: 30px;
+}
+
 .pa-space-l {
     margin-top: 90px;
 }
