@@ -101,7 +101,10 @@ input[type="submit"]:disabled {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    left: -500px;
+}
+
+.pa-background img {
+    max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -115,8 +118,4 @@ input[type="submit"]:disabled {
         margin-right: 1em;
         margin-bottom: 45px;
     }  
-
-    .pa-background {
-        left: -250px;
-    }
 }
