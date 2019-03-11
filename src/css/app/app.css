@@ -57,21 +57,26 @@ input[type="text"] {
     display: block;
     border-radius: 25px;
     border: none;
-    color: #000;
+    color: #0D1C46;
     height: 3em;
     padding: 20px;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+a.btn-pa,
 input[type="submit"] {
     width: 100%;
     background: #FFF;
     border: none;
-    color: #000;
+    color: #0D1C46;
     border-radius: 25px;
     padding: 15px;
     margin: 15px 0 45px 0;
     cursor: pointer;
+    display: block;
+    text-align: center;
 }
 
 input[type="submit"]:disabled {
@@ -80,11 +85,14 @@ input[type="submit"]:disabled {
     cursor: not-allowed;
 }
 
-.fas, 
-.fab {
-    font-size: 3em;
-    margin-right: 0.8em;
-    margin-top: 30px;
+.btn-pa.btn-youtube {
+    background: #F80100;
+    color: #FFF;
+}
+
+.btn-pa.btn-spotify {
+    background: #2EBD59;
+    color: #FFF;
 }
 
 .pa-space-s {
