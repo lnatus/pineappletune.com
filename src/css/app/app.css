@@ -95,6 +95,11 @@ input[type="submit"]:disabled {
     color: #FFF;
 }
 
+.btn-pa.btn-twitch {
+    background: #6441A5;
+    color: #FFF;
+}
+
 .pa-space-s {
     margin-top: 15px;
 }
