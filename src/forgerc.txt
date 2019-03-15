@@ -2,5 +2,6 @@ Files
 	sitemap.xml
 	favicon.ico
 	images/pineapple-opengraph.png
+	images/pineapple-simplicity-opengraph.png
     music/SOUNDS_LIKE_ME.mp3
 	
